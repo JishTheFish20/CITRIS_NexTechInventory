@@ -13,8 +13,8 @@ export async function GET(request: Request) {
 
 
 
-export async function getRobots(){
-    const result = await sql`SELECT * from Robots;`;
-    // console.log(result);
-    return result;
-}
+// export async function getRobots(){
+//     const result = await sql`SELECT * from Robots;`;
+//     // console.log(result);
+//     return result;
+// }
